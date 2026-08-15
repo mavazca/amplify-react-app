@@ -1,9 +1,9 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-1:654654554686:task-definition/devops-na-nuvem-ecs-portal-task:4",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-1:886768722995:task-definition/devops-na-nuvem-ecs-portal-task:2",
     "containerDefinitions": [
         {
             "name": "portal",
-            "image": "654654554686.dkr.ecr.us-east-1.amazonaws.com/amplify-react-app",
+            "image": "886768722995.dkr.ecr.us-east-1.amazonaws.com/amplify-react-app",
             "cpu": 1024,
             "memory": 2048,
             "portMappings": [
@@ -30,9 +30,9 @@
         }
     ],
     "family": "devops-na-nuvem-ecs-portal-task",
-    "executionRoleArn": "arn:aws:iam::654654554686:role/devops-na-nuvem-ecs-execution-role",
+    "executionRoleArn": "arn:aws:iam::886768722995:role/devops-na-nuvem-ecs-execution-role",
     "networkMode": "awsvpc",
-    "revision": 4,
+    "revision": 2,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -64,6 +64,7 @@
     "placementConstraints": [],
     "compatibilities": [
         "EC2",
+        "MANAGED_INSTANCES",
         "FARGATE"
     ],
     "requiresCompatibilities": [
@@ -71,7 +72,7 @@
     ],
     "cpu": "1024",
     "memory": "2048",
-    "registeredAt": "2024-05-21T21:01:05.535Z",
-    "registeredBy": "arn:aws:sts::654654554686:assumed-role/devops-na-nuvem-week-terraform-role/aws-go-sdk-1716325260854750006",
+    "registeredAt": "2026-08-15T18:53:28.803Z",
+    "registeredBy": "arn:aws:iam::886768722995:user/admin",
     "tags": []
 }
